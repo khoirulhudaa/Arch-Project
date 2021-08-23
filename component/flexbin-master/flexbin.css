@@ -2,7 +2,8 @@
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
-  margin: -2.5px; }
+  margin: -2.5px; 
+}
   .flexbin:after {
     content: '';
     flex-grow: 999999999;
