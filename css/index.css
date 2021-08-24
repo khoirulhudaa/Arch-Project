@@ -42,6 +42,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden; 
+    background-color: rgb(41, 41, 41);
 }
 
 .toTop {
@@ -181,13 +182,13 @@ nav ul li {
 
 .jumbotron {
     position: relative;
-    height: 590px;
+    height: 600px;
     margin-top: 55px;
     width: 100vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/public/bd3.jpg'); 
+    background-image: url('../images/public/hero.jpeg'); 
 }
 
 .jumbotron::before {
@@ -266,7 +267,7 @@ nav ul li {
     border: none;
     outline: none;
     padding: 4px;
-    color: black;
+    color: white;
 }
 
 .chatButton {
@@ -290,7 +291,7 @@ nav ul li {
 }
 
 .chatButton a {
-    color: black;
+    color: white;
 }
 
 #comment {
@@ -491,7 +492,7 @@ nav ul li {
     right: 0;
     margin: 20px;
     background-color: #fff;
-    color: black;
+    color: white;
     font-size: 14px;
     border-radius: 30px;
     text-align: center;
@@ -543,11 +544,13 @@ nav ul li {
     position: relative;
     margin-top: 80px;
     margin-bottom: 50px;
+    color: white;
 }
 
 .kelebihan-map{
     position: relative;
     margin-top: 120px;
+    color: white;
     margin-bottom: 50px;
 }
 
@@ -682,6 +685,7 @@ nav ul li {
     left: -25px;
     font-size: 64px;
     font-weight: bold;
+    color: white;
 }
 
 .sec-paket .paket-content h2::before {
@@ -701,6 +705,7 @@ nav ul li {
     font-size: 18px;
     line-height: 2em;
     margin-left: -20px;
+    color: white;
 }
 
 
@@ -802,12 +807,14 @@ nav ul li {
     position: relative;
     padding: 20px;
     left: -25px;
+    color: white;
 }
 
 .sec-about .wrap-sec-about p {
     padding: 20px;
     width: 85%;
     margin-left: -20px;
+    color: white;
 }
 
 
@@ -1023,10 +1030,45 @@ nav ul li {
 
 /* akhor footer */
 
+/* section info */
+
+.section-info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: max-content;
+}
+
+.section-info p {
+    margin-left: 40px;
+    width: 90%;
+    margin-top: 60px;
+    font-size: 17.6px;
+    line-height: 2em;
+    color: white;
+}
+
+/* akhir section info */
+
 
 
 /* responsive device mobile */
 @media screen and (max-width: 756px) {
+        
+    .section-info {
+        text-align: center;
+    }
+
+    .section-info p {
+        margin-left: 10px;
+        width: 92%;
+        margin-top: 60px;
+        font-size: 17.6px;
+        line-height: 2em;
+        color: white;
+    }
         
     #pakeType {
         position: absolute;
@@ -1112,7 +1154,7 @@ nav ul li {
     .jumbotron {
         position: relative;
         height: max-content;
-        background-image: url('../images/public/bd3.jpg'); 
+        background-image: url('../images/public/hero.jpeg'); 
         width: 100vw;
         background-size: cover;
         background-position: center;
@@ -1329,6 +1371,7 @@ nav ul li {
         margin-bottom: 0px;
         margin-top: 20px;
         font-size: 40px;
+        color: white;
     }
 
     .sec-paket .wrap-sec-paket h3 {
@@ -1339,7 +1382,9 @@ nav ul li {
 
     .sec-paket .wrap-sec-paket p {
         padding: 0px;
-        width: 80%;
+        width: 90%;
+        margin-left: 4px;
+        color: white;
     }
 
     .sec-paket .wrap-sec-paket img {
@@ -1427,6 +1472,7 @@ nav ul li {
 
 .sec-about .wrap-sec-about p {
     width: 100%;
+    color: white;
 }
 
 .sec-about .wrap-sec-about img {
