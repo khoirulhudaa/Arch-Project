@@ -1136,7 +1136,7 @@ nav ul li {
 
     .navbar {
         position: fixed;
-        background-color: #fff;
+        background-color: rgb(41, 41, 41);
         z-index: 999;
         width: 100vw;
         padding-left: 10px;
