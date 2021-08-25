@@ -24,6 +24,9 @@
   .flexbin.flexbin-margin {
     margin: 2.5px; }
   @media (max-width: 980px) {
+    .img-hiddens {
+      display: none;
+    }
     .flexbin {
       display: flex;
       overflow: hidden;
@@ -49,6 +52,9 @@
       .flexbin.flexbin-margin {
         margin: 2.5px; } }
   @media (max-width: 400px) {
+    .img-hiddens {
+      display: none;
+    }
     .flexbin {
       display: flex;
       overflow: hidden;
